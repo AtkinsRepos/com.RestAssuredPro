@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-03T12:36:19Z" name="RestAPITestSuite" finished-at="2019-08-03T12:37:11Z" duration-ms="51974">
+    <groups>
+    </groups>
+    <test started-at="2019-08-03T12:36:19Z" name="EmployeesRestAPITest" finished-at="2019-08-03T12:37:11Z" duration-ms="51974">
+      <class name="com.RestAssuredPro.test.TC05_Delete_EmployeeRecord">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:01Z" name="setup" finished-at="2019-08-03T12:37:02Z" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Delete_EmployeeRecord()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:02Z" name="Delete_EmployeeRecord" finished-at="2019-08-03T12:37:11Z" duration-ms="8643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_EmployeeRecord -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkContentLength" finished-at="2019-08-03T12:37:11Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkContentType" finished-at="2019-08-03T12:37:11Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkResponseBody" finished-at="2019-08-03T12:37:11Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkResponseTime" finished-at="2019-08-03T12:37:11Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkStatusCode" finished-at="2019-08-03T12:37:11Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkStatusLine" finished-at="2019-08-03T12:37:11Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkserverType()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="checkserverType" finished-at="2019-08-03T12:37:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssuredPro.test.TC05_Delete_EmployeeRecord@bb9e6dc]" started-at="2019-08-03T12:37:11Z" name="teardown" finished-at="2019-08-03T12:37:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssuredPro.test.TC05_Delete_EmployeeRecord -->
+      <class name="com.RestAssuredPro.test.TC03_Post_CreateNewRecord">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:41Z" name="setup" finished-at="2019-08-03T12:36:43Z" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Post_CreateNewRecord()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:43Z" name="Post_CreateNewRecord" finished-at="2019-08-03T12:36:49Z" duration-ms="6242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Post_CreateNewRecord -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:49Z" name="checkContentLength" finished-at="2019-08-03T12:36:49Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:49Z" name="checkContentType" finished-at="2019-08-03T12:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:49Z" name="checkResponseBody" finished-at="2019-08-03T12:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:49Z" name="checkResponseTime" finished-at="2019-08-03T12:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:49Z" name="checkStatusCode" finished-at="2019-08-03T12:36:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:50Z" name="checkStatusLine" finished-at="2019-08-03T12:36:50Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkserverType()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:50Z" name="checkserverType" finished-at="2019-08-03T12:36:51Z" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssuredPro.test.TC03_Post_CreateNewRecord@651aed93]" started-at="2019-08-03T12:36:51Z" name="teardown" finished-at="2019-08-03T12:36:51Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssuredPro.test.TC03_Post_CreateNewRecord -->
+      <class name="com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:36:51Z" name="setup" finished-at="2019-08-03T12:36:52Z" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="UpdateEmployeeRecord()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:36:52Z" name="UpdateEmployeeRecord" finished-at="2019-08-03T12:36:57Z" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEmployeeRecord -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:36:57Z" name="checkContentLength" finished-at="2019-08-03T12:36:57Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:36:57Z" name="checkContentType" finished-at="2019-08-03T12:36:57Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:36:58Z" name="checkResponseBody" finished-at="2019-08-03T12:36:58Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:36:58Z" name="checkResponseTime" finished-at="2019-08-03T12:37:00Z" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:37:00Z" name="checkStatusCode" finished-at="2019-08-03T12:37:00Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:37:00Z" name="checkStatusLine" finished-at="2019-08-03T12:37:00Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkserverType()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:37:01Z" name="checkserverType" finished-at="2019-08-03T12:37:01Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord@4dd6fd0a]" started-at="2019-08-03T12:37:01Z" name="teardown" finished-at="2019-08-03T12:37:01Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssuredPro.test.TC04_Put_UpdateEmployeeRecord -->
+      <class name="com.RestAssuredPro.test.TC001_Get_AllEmployeeData">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:20Z" name="setup" finished-at="2019-08-03T12:36:20Z" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Get_AllEmployeeData()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:20Z" name="Get_AllEmployeeData" finished-at="2019-08-03T12:36:25Z" duration-ms="5374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_AllEmployeeData -->
+        <test-method signature="checkContentType()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:25Z" name="checkContentType" finished-at="2019-08-03T12:36:26Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkCookies()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:26Z" name="checkCookies" finished-at="2019-08-03T12:36:26Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:26Z" name="checkResponseBody" finished-at="2019-08-03T12:36:29Z" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:30Z" name="checkResponseTime" finished-at="2019-08-03T12:36:30Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:31Z" name="checkStatusCode" finished-at="2019-08-03T12:36:31Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:32Z" name="checkStatusLine" finished-at="2019-08-03T12:36:32Z" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkserverType()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:32Z" name="checkserverType" finished-at="2019-08-03T12:36:32Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method signature="ckeckContentEncoding()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:32Z" name="ckeckContentEncoding" finished-at="2019-08-03T12:36:33Z" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ckeckContentEncoding -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssuredPro.test.TC001_Get_AllEmployeeData@7a3793c7]" started-at="2019-08-03T12:36:33Z" name="teardown" finished-at="2019-08-03T12:36:33Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssuredPro.test.TC001_Get_AllEmployeeData -->
+      <class name="com.RestAssuredPro.test.TC02_Get_SingleEmplReocord">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:33Z" name="setup" finished-at="2019-08-03T12:36:35Z" duration-ms="2514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Get_AllEmployeeData()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:35Z" name="Get_AllEmployeeData" finished-at="2019-08-03T12:36:39Z" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_AllEmployeeData -->
+        <test-method signature="checkContentLength()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:39Z" name="checkContentLength" finished-at="2019-08-03T12:36:39Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method signature="checkContentType()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:39Z" name="checkContentType" finished-at="2019-08-03T12:36:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkResponseBody()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:39Z" name="checkResponseBody" finished-at="2019-08-03T12:36:39Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:39Z" name="checkResponseTime" finished-at="2019-08-03T12:36:39Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:39Z" name="checkStatusCode" finished-at="2019-08-03T12:36:39Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:40Z" name="checkStatusLine" finished-at="2019-08-03T12:36:40Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method signature="checkserverType()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:40Z" name="checkserverType" finished-at="2019-08-03T12:36:40Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method signature="ckeckContentEncoding()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:41Z" name="ckeckContentEncoding" finished-at="2019-08-03T12:36:41Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ckeckContentEncoding -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.RestAssuredPro.test.TC02_Get_SingleEmplReocord@42b3b079]" started-at="2019-08-03T12:36:41Z" name="teardown" finished-at="2019-08-03T12:36:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.RestAssuredPro.test.TC02_Get_SingleEmplReocord -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- RestAPITestSuite -->
+</testng-results>

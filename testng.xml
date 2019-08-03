@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RestAPITestSuite">
+<listeners>
+	<listener class-name="com.RestAssuredPro.utilities.Listeners" />
+</listeners>
+	<test name="EmployeesRestAPITest">
+		 <packages>
+            <package name="com.RestAssuredPro.test"/>
+        </packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

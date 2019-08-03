@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAPITestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.RestAssuredPro.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.RestAssuredPro.test.TC05_Delete_EmployeeRecord">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="setup"/>
+          <include name="Delete_EmployeeRecord"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.RestAssuredPro.test.TC05_Delete_EmployeeRecord -->
+      <class name="com.RestAssuredPro.test.TC02_Get_SingleEmplReocord">
+        <methods>
+          <include name="ckeckContentEncoding"/>
+          <include name="teardown"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="Get_AllEmployeeData"/>
+          <include name="checkStatusCode"/>
+          <include name="setup"/>
+          <include name="checkResponseBody"/>
+        </methods>
+      </class> <!-- com.RestAssuredPro.test.TC02_Get_SingleEmplReocord -->
+      <class name="com.RestAssuredPro.test.TC03_Post_CreateNewRecord">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="checkContentType"/>
+          <include name="Post_CreateNewRecord"/>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="checkResponseBody"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.RestAssuredPro.test.TC03_Post_CreateNewRecord -->
+      <class name="com.RestAssuredPro.test.TC001_Get_AllEmployeeData">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkStatusLine"/>
+          <include name="ckeckContentEncoding"/>
+          <include name="Get_AllEmployeeData"/>
+          <include name="checkContentType"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.RestAssuredPro.test.TC001_Get_AllEmployeeData -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [RestAPITestSuite] -->

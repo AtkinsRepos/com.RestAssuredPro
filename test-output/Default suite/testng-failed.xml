@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.RestAssuredPro.test.TC05_Delete_EmployeeRecord">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="checkResponseTime"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="checkContentType"/>
+          <include name="setup"/>
+          <include name="Delete_EmployeeRecord"/>
+          <include name="teardown"/>
+          <include name="checkContentLength"/>
+          <include name="checkserverType"/>
+        </methods>
+      </class> <!-- com.RestAssuredPro.test.TC05_Delete_EmployeeRecord -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
